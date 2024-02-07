@@ -13,6 +13,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+// Zorro imports
+import { NzSpinModule} from 'ng-zorro-antd/spin';
+import { NzFormModule} from 'ng-zorro-antd/form';
+import { NzButtonModule} from 'ng-zorro-antd/button';
+import { NzInputModule} from 'ng-zorro-antd/input';
+import { NzLayoutModule} from 'ng-zorro-antd/layout';
+
 registerLocaleData(en);
 
 @NgModule({
@@ -26,7 +33,15 @@ registerLocaleData(en);
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+
+    //NG ZORRO IMPORTS
+    NzSpinModule,
+    NzFormModule,
+    NzButtonModule,
+    NzInputModule,
+    NzLayoutModule
+
   ],
   providers: [
     provideClientHydration(),
