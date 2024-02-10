@@ -20,6 +20,7 @@ import { NzFormModule} from 'ng-zorro-antd/form';
 import { NzButtonModule} from 'ng-zorro-antd/button';
 import { NzInputModule} from 'ng-zorro-antd/input';
 import { NzLayoutModule} from 'ng-zorro-antd/layout';
+import { NzMessageModule } from 'ng-zorro-antd/message';
 
 registerLocaleData(en);
 
@@ -42,7 +43,8 @@ registerLocaleData(en);
     NzFormModule,
     NzButtonModule,
     NzInputModule,
-    NzLayoutModule
+    NzLayoutModule,
+    NzMessageModule,
 
   ],
   providers: [
