@@ -12,6 +12,7 @@ import en from '@angular/common/locales/en';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule } from '@angular/forms';
 
 // Zorro imports
 import { NzSpinModule} from 'ng-zorro-antd/spin';
@@ -34,6 +35,7 @@ registerLocaleData(en);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
 
     //NG ZORRO IMPORTS
     NzSpinModule,
